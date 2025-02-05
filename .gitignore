@@ -1,0 +1,20 @@
+# Directorio de salida de Maven
+target/
+
+# Archivos de Visual Studio Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+
+# Archivos de configuración de Maven Wrapper (si se usan)
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Archivos de log y temporales
+*.log
+*.tmp
+*.class
+
+# JUnit report files
+test-outputs/
