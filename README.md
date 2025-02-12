@@ -91,6 +91,20 @@ mvn package
 Para poder implementar los métodos `addBook`, `loanABook` y `returnLoan` de la clase `Library` vamos a aplicar la técnica de TDD, por cada caso de prueba se debe hacer un commit, cada commit debe tener la prueba nueva y la implementación para que la prueba del commit funcione. Las pruebas anteriormente implementadas deben continuar funcionando.
 Como están trabajando en parejas es necesario trabajar en ramas independientes y utilizar Pull Request para mezclar los cambios.
 
+```sh
+Test de la prueba unitaria book
+```
+![img](./Screens/prueba_book.png)
+
+```sh
+Test de la prueba unitaria loan
+```
+![img](./Screens/prueba_loan.png)
+
+```sh
+Test de la prueba unitaria user
+```
+![img](./Screens/prueba_user.png)
 
 
 ## CREAR CLASE DE PRUEBA
@@ -98,3 +112,10 @@ Es necesario crear la clase de prueba para ```edu.eci.cvds.tdd.Library```, la cl
 
 Para pensar en los casos de pruebas lean detenidamente el javadoc de los métodos para reconocer las clases de equivalencia, basados en las clases de equivalencia se debe crear una prueba la cual debe fallar y posteriormente implementar el código necesario para que funcione, este proceso se debe repetir hasta cumplir con la especificación definida en el javadoc.
 
+### Realizamos la prueba de verificación del build en jacoco luego de las pruebas de unidad
+![img](./Screens/prueba_jacoco.png)
+
+
+### Jacoco
+Realizamos las pruebas de unidad y despues de realizar los test comprobamos como en la parte del tarjet se genero un archivo de index.html donde se puede ver evidenciado el nivel de prubas que se colocaron respecto a la clase, en donde evidenciamos los siguientes resutados:
+![img](./Screens/prueba_jacoco2.png)
