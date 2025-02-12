@@ -91,6 +91,20 @@ mvn package
 Para poder implementar los métodos `addBook`, `loanABook` y `returnLoan` de la clase `Library` vamos a aplicar la técnica de TDD, por cada caso de prueba se debe hacer un commit, cada commit debe tener la prueba nueva y la implementación para que la prueba del commit funcione. Las pruebas anteriormente implementadas deben continuar funcionando.
 Como están trabajando en parejas es necesario trabajar en ramas independientes y utilizar Pull Request para mezclar los cambios.
 
+```sh
+Test de la prueba unitaria book
+```
+![img](./Screens/prueba_book.png)
+
+```sh
+Test de la prueba unitaria loan
+```
+![img](./Screens/prueba_loan.png)
+
+```sh
+Test de la prueba unitaria user
+```
+![img](./Screens/prueba_user.png)
 
 
 ## CREAR CLASE DE PRUEBA
