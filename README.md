@@ -112,3 +112,6 @@ Es necesario crear la clase de prueba para ```edu.eci.cvds.tdd.Library```, la cl
 
 Para pensar en los casos de pruebas lean detenidamente el javadoc de los métodos para reconocer las clases de equivalencia, basados en las clases de equivalencia se debe crear una prueba la cual debe fallar y posteriormente implementar el código necesario para que funcione, este proceso se debe repetir hasta cumplir con la especificación definida en el javadoc.
 
+### Realizamos la prueba de verificación del build en jacoco luego de las pruebas de unidad
+![img](./Screens/prueba_jacoco.png)
+
