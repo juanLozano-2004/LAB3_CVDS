@@ -115,3 +115,7 @@ Para pensar en los casos de pruebas lean detenidamente el javadoc de los método
 ### Realizamos la prueba de verificación del build en jacoco luego de las pruebas de unidad
 ![img](./Screens/prueba_jacoco.png)
 
+
+### Jacoco
+Realizamos las pruebas de unidad y despues de realizar los test comprobamos como en la parte del tarjet se genero un archivo de index.html donde se puede ver evidenciado el nivel de prubas que se colocaron respecto a la clase, en donde evidenciamos los siguientes resutados:
+![img](./Screens/prueba_jacoco2.png)
